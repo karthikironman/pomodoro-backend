@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const loginRouter = require("./api/Routes/login.routes")
+const pomoRouter = require("./api/Routes/pomo.routes")
 const mongoose = require("mongoose");
 
 mongoose
@@ -35,5 +36,6 @@ app.get("/",(req,res,next)=>{
 })
 
 app.use("/login",loginRouter);
+app.use("/pomo",pomoRouter)
 
 module.exports = app;
