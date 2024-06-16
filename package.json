@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/karthikironman/pomodoro-backend/issues"
   },
-  "homepage": "https://github.com/karthikironman/pomodoro-backend#readme"
+  "homepage": "https://github.com/karthikironman/pomodoro-backend#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.4.1"
+  }
 }
