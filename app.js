@@ -7,8 +7,8 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    // "mongodb://localhost:27017/pomodoro"
-    "mongodb://uaabydwvog8nzr7vg7pf:6qoEJHQ4VTyHKATVsPN@bzdmkshrg0ymeje55u5q-mongodb.services.clever-cloud.com:2391/bzdmkshrg0ymeje55u5q"
+     "mongodb://localhost:27017/pomodoro"
+   // "mongodb://uaabydwvog8nzr7vg7pf:6qoEJHQ4VTyHKATVsPN@bzdmkshrg0ymeje55u5q-mongodb.services.clever-cloud.com:2391/bzdmkshrg0ymeje55u5q"
     //"mongodb+srv://GoYard:Reports1234@cluster0.0wdtgt7.mongodb.net/?retryWrites=true&w=majority"
   )
   .then((result) => {
